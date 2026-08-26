@@ -11,4 +11,78 @@ SNW1	Complejo B/C	Auxiliar
 CWC15	Complejo B/C	Auxiliar
 CWC22	Complejo B/C	Auxiliar
 CWC25	Complejo B/C	Auxiliar
-ISL1		
+ISL1	Complejo B/C	Auxiliar
+DDX5	Helicase	Auxiliar
+DDX17	Helicase	Auxiliar
+DDX23	Helicase	Auxiliar
+DHX8	Helicase	Auxiliar
+DHX15	Helicase	Auxiliar
+DHX38	Helicase	Auxiliar
+DHX16	Helicase	Auxiliar
+SNRNP70	U1 snRNP	Core estructural
+SNRPA	U1 snRNP	Core estructural
+SNRPC	U1 snRNP	Core estructural
+SNRPB	U1 snRNP	Core estructural
+SNRPB2	U1 snRNP	Core estructural
+SNRPD1	U1 snRNP	Core estructural
+SNRPD2	U1 snRNP	Core estructural
+SNRPD3	U1 snRNP	Core estructural
+SNRPE	U1 snRNP	Core estructural
+SNRPF	U1 snRNP	Core estructural
+SNRPG	U1 snRNP	Core estructural
+SF3A1	U2 snRNP	Core estructural
+SF3A2	U2 snRNP	Core estructural
+SF3A3	U2 snRNP	Core estructural
+SF3B1	U2 snRNP	Core estructural
+SF3B2	U2 snRNP	Core estructural
+SF3B3	U2 snRNP	Core estructural
+SF3B4	U2 snRNP	Core estructural
+SF3B5	U2 snRNP	Core estructural
+PHF5A	U2 snRNP	Core estructural
+SNRPA1	U2 snRNP	Core estructural
+PRPF3	U4/U6 snRNP	Core estructural
+PRPF4	U4/U6 snRNP	Core estructural
+PRPF6	U4/U6 snRNP	Core estructural
+PRPF31	U4/U6 snRNP	Core estructural
+SART3	U4/U6 snRNP	Core estructural
+LSM2	U4/U6 snRNP	Core estructural
+LSM3	U4/U6 snRNP	Core estructural
+LSM4	U4/U6 snRNP	Core estructural
+LSM5	U4/U6 snRNP	Core estructural
+LSM6	U4/U6 snRNP	Core estructural
+LSM7	U4/U6 snRNP	Core estructural
+LSM8	U4/U6 snRNP	Core estructural
+PRPF8	U5 / tri-snRNP	Core estructural
+SNRNP200	U5 / tri-snRNP	Core estructural
+EFTUD2	U5 / tri-snRNP	Core estructural
+TXNL4A	U5 / tri-snRNP	Core estructural
+SNRNP40	U5 / tri-snRNP	Core estructural
+CWC27	U5 / tri-snRNP	Core estructural
+U2AF1	Reconocimiento 3'	Regulador
+U2AF2	Reconocimiento 3'	Regulador
+RBMX	Complejo B/C	Regulador
+SRSF1	SR protein	Regulador
+SRSF2	SR protein	Regulador
+SRSF3	SR protein	Regulador
+SRSF4	SR protein	Regulador
+SRSF5	SR protein	Regulador
+SRSF6	SR protein	Regulador
+SRSF7	SR protein	Regulador
+SRSF8	SR protein	Regulador
+SRSF9	SR protein	Regulador
+SRSF10	SR protein	Regulador
+SRSF11	SR protein	Regulador
+SRSF12	SR protein	Regulador
+HNRNPA1	hnRNP	Regulador
+HNRNPA2B1	hnRNP	Regulador
+HNRNPC	hnRNP	Regulador
+HNRNPD	hnRNP	Regulador
+HNRNPH1	hnRNP	Regulador
+HNRNPH2	hnRNP	Regulador
+HNRNPH3	hnRNP	Regulador
+HNRNPF	hnRNP	Regulador
+HNRNPK	hnRNP	Regulador
+HNRNPL	hnRNP	Regulador
+HNRNPM	hnRNP	Regulador
+HNRNPU	hnRNP	Regulador
+HNRNPUL1	hnRNP	Regulador
