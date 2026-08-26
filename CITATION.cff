@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated Master's Thesis."
+title: "Human Spliceosome Network Analysis in R"
+type: software
+abstract: "Portfolio repository accompanying a Master's Thesis on the topology, functional organisation and biomedical relevance of human spliceosome-related genes using network and systems-biology analyses."
+authors:
+  - family-names: "Bailén de la Cruz"
+    given-names: "Antonio José"
+date-released: 2026-07-02
+keywords:
+  - bioinformatics
+  - systems biology
+  - spliceosome
+  - network biology
+  - protein-protein interaction
+  - R
+  - functional enrichment
+  - Human Protein Atlas
+  - Human Phenotype Ontology
