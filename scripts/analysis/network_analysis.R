@@ -35,9 +35,9 @@ base_genes <- base_genes %>%
 write.xlsx(base_genes, "results/HPO/Base_Genes_Mapeados.xlsx", overwrite = TRUE)
 
 csv_files <- list(
-  Core = "data/gprofiler/genesCore_gProfiler_hsapiens_2026-06-09_12-06-28__intersections.csv",
-  Auxiliar = "data/gprofiler/genesAuxiliares_gProfiler_hsapiens_2026-06-09_12-04-54__intersections.csv",
-  Regulador = "data/gprofiler/genesReguladores_gProfiler_hsapiens_2026-06-09_12-07-14__intersections.csv"
+  Core = "data/gprofiler/genesCore_gProfiler.csv",
+  Auxiliar = "data/gprofiler/genesAuxiliares_gProfiler.csv",
+  Regulador = "data/gprofiler/genesReguladores_gProfiler.csv"
 )
 
 gprofiler_raw <- data.frame()

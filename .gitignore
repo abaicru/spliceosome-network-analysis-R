@@ -1,0 +1,22 @@
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+
+# --- R ---
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# --- LaTeX / RMarkdown build artefacts (see docs/portfolio/REPOSITORY_PLAN.md, rule 5) ---
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+
+# --- Editor ---
+.vscode/
+*.swp

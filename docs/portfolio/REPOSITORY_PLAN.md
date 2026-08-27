@@ -6,16 +6,29 @@ This repository is intentionally organised as a portfolio rather than as a dump 
 |---|---|---|
 | `data/reference/` | Canonical study-set inputs | 87-gene workbook + tabular export |
 | `data/gprofiler/` | External-tool exports used downstream | Core, Auxiliary and Regulatory `intersections.csv` files |
-| `data/hpo/` | HPO association inputs | Supplied association snapshots |
+| `data/networkanalyst/` | Primary-source topology per network | NetworkAnalyst degree/betweenness exports (global + 4 subnetworks) |
+| `data/hpo/` | HPO association inputs | Supplied association snapshot |
 | `scripts/analysis/` | Biological/network analysis | Main R workflow |
 | `scripts/data/` | Input retrieval | HPO download helper |
-| `scripts/reporting/` | Report generation | R report/LaTeX builders |
-| `scripts/legacy/` | Document assembly history | Supplied auxiliary scripts separated from analysis |
 | `results/` | Tabular outputs | HPA/HPO Excel workbooks |
-| `figures/` | Visual outputs | Supplied HPA/HPO PNG figures |
+| `figures/` | Visual outputs | Supplied PPI/HPA/HPO figures |
 | `docs/portfolio/` | Recruiter-facing documentation | Results, project overview, reproducibility, hashes |
-| `docs/report/` | Analytical report source/output | R Markdown, PDF and DOCX |
-| `docs/tfm/` | Academic source document | Final TFM PDF |
+| `docs/tfm/` | Academic source document | Final TFM PDF (signature-free) |
+
+## Deliberately excluded
+
+Two categories of material from the original working folders were left out of this portfolio, on
+purpose, not by oversight:
+
+- **The intermediate analysis report** (R Markdown source + compiled PDF/DOCX) that was written
+  during the project and later merged into the thesis. Its content is fully superseded by the TFM
+  itself (Section 4.6) — keeping three versions of the same content (Rmd, PDF, DOCX) alongside the
+  thesis PDF added redundant weight with no additional information.
+- **Document-assembly scripts** (PDF/DOCX compilers, TFM mergers, table-of-contents updaters) used to
+  produce and merge the report above. They contain hard-coded local file paths, perform no biological
+  analysis, and existed solely to build the artefact just excluded.
+- **A second, unused HPO snapshot** (`genes_to_phenotype_jax.txt`) that no script in this repository
+  reads.
 
 ## Maintenance rules
 

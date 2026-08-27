@@ -32,8 +32,8 @@ flowchart LR
 
 - Curated reference gene dataset.
 - Original HPO and g:Profiler input exports.
+- Primary-source NetworkAnalyst topology exports (global network + 4 subnetworks).
 - R analysis workflow.
 - HPA and HPO result workbooks.
 - HPA and HPO figures.
-- Analysis report (R Markdown, PDF and DOCX).
-- Final Master's Thesis PDF.
+- Final Master's Thesis PDF (signature-free).

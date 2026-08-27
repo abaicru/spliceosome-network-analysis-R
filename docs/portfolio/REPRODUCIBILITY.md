@@ -6,7 +6,7 @@ The supplied R workflow can regenerate the HPA/HPO network analyses from the inc
 
 ## What is preserved as an external-tool output
 
-The PPI network was obtained in STRING v12.0 and the thesis reports topological metrics obtained with NetworkAnalyst 3.0. The supplied analytical R script does not rebuild the STRING PPI network through an API. Therefore, the repository preserves the thesis and its exported downstream results rather than claiming that the complete PPI acquisition step is recreated automatically.
+The PPI network was obtained in STRING v12.0 and the thesis reports topological metrics obtained with NetworkAnalyst 3.0. The supplied analytical R script does not rebuild the STRING PPI network through an API, nor recompute degree/betweenness centrality on it. Therefore, the repository preserves the thesis and the primary-source NetworkAnalyst exports (`data/networkanalyst/`, see `data/README.md` for how they were cross-checked against every figure quoted in the documentation) rather than claiming that the complete PPI acquisition and topology step is recreated automatically by the included script.
 
 ## Thresholds and parameters reported in the thesis
 
@@ -19,4 +19,4 @@ The PPI network was obtained in STRING v12.0 and the thesis reports topological 
 
 ## Snapshot principle
 
-External databases change over time. The repository therefore keeps the supplied HPO association snapshot and the timestamped g:Profiler exports used with the project. Replacing them with newer releases can change results.
+External databases change over time. The repository therefore keeps the supplied HPO association snapshot and the g:Profiler exports used with the project. Replacing them with newer releases can change results.

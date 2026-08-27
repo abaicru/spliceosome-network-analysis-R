@@ -2,7 +2,13 @@
 
 **Systems Biology · Network Bioinformatics · Functional Enrichment · Biomedical Data Integration**
 
-> Portfolio version of the Master's Thesis **“Organización funcional y relevancia biomédica de los genes del espliceosoma humano: un enfoque de Biología de Sistemas”**.
+![R](https://img.shields.io/badge/R-4.x-276DC3?logo=r&logoColor=white)
+![STRING v12.0](https://img.shields.io/badge/STRING-v12.0-6BA5D7)
+![Genes](https://img.shields.io/badge/genes-87-informational)
+![Thesis grade](https://img.shields.io/badge/TFM_grade-9.6%2F10-brightgreen)
+![Status](https://img.shields.io/badge/status-portfolio-lightgrey)
+
+> Portfolio version of the Master's Thesis **“Organización funcional y relevancia biomédica de los genes del espliceosoma humano: un enfoque de Biología de Sistemas”**, graded **9.6/10**.
 
 This repository documents and preserves the computational work behind the thesis as a technical portfolio project. The study combines curated spliceosome gene sets, protein–protein interaction analysis, network topology, functional enrichment, tissue-expression associations, human phenotype associations and clinical evidence.
 
@@ -56,7 +62,9 @@ The visual outputs are deliberately placed before the detailed methodology: the 
 
 ![Global spliceosome PPI network](figures/PPI/network_global_from_TFM_p24.png)
 
-STRING v12.0 network from the 87-gene input set. The thesis reports 86 connected nodes and 1,832 edges; `ISL1` remained isolated at the ≥0.700 confidence threshold.
+STRING v12.0 network from the 87-gene input set. The thesis reports 86 connected nodes and 1,832 edges; `ISL1` remained isolated at the ≥0.700 confidence threshold. Independently confirmed by STRING's own Network Stats panel:
+
+![STRING Network Stats panel](figures/PPI/string_network_stats_panel.png)
 
 ### Global HPA tissue-similarity network
 
@@ -166,23 +174,20 @@ spliceosome-network-analysis-R/
 ├── data/
 │   ├── reference/
 │   ├── gprofiler/
+│   ├── networkanalyst/
 │   └── hpo/
 ├── scripts/
 │   ├── analysis/
-│   ├── data/
-│   ├── reporting/
-│   └── legacy/
+│   └── data/
 ├── results/
 │   ├── HPA/
 │   └── HPO/
 ├── figures/
 │   ├── PPI/
 │   ├── HPA/
-│   ├── HPO/
-│   └── portfolio/
+│   └── HPO/
 └── docs/
     ├── portfolio/
-    ├── report/
     └── tfm/
 ```
 
